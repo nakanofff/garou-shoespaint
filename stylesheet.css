@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+header{
+	padding: 0;
+	margin: 0;
+	height: 690px;
+	background-image: url("header-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-line{
+	background-color: #FFFFFF80;
+	display: flex;
+}
+.header-nav{
+	display: flex;
+}
+.header-nav a img{
+	width: 348px;
+}
+.header-nav ul{
+	display: flex;
+	margin: auto 0;
+}
+.header-nav ul li{
+	margin: 0 20px;
+	list-style: none;
+}
+.header-nav ul li a{
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 22px;
+}
+.twitter-icon{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	background-color: #00A8CC;
+	width: 217px;
+	height: 125.97px;
+}
+.twitter-icon img{
+	display: block;
+	width: 116px;
+	margin: auto auto;
+}
+.about{
+	background-image: url("about-image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 413px;
+}
+.about h2{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 51px;
+	text-align: center;
+	margin: 0;
+	padding-top: 100px;
+}
+.about p{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+	padding-top: 30px;
+}
+.twitter-botton{
+	display: flex;
+	margin: 0 auto;
+	width: 212px;
+	border: 1px solid #ffffff;
+}
+.twitter-botton img{
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+.twitter-botton h3{
+	padding-top: 5px;
+	margin: 0;
+}
+.twitter-botton h3 a{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 22px;
+	text-align: center;
+	margin: 0;
+	text-decoration: none;
+}
+.works{
+
+}
+.works-back{
+	background-color: #142850;
+	margin-top: 80px;
+	transform: rotate(-3deg);
+	height: 250px;
+	width: 100%;
+}
+.works-top{
+	transform: rotate(3deg);
+	
+}
+.works-top h2{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 51px;
+	text-align: center;
+	margin: 0;
+	padding-top: 80px; 
+}
+.works-top p{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+.gallery{
+	margin-top: 100px;
+}
+.line1{
+	display: flex;
+	justify-content: space-around;
+}
+.line1 img{
+	width: 283px;
+	height: 283px;
+	box-shadow: 10px 10px 6px #00000089;
+}
+
+
+.line2{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.line2 img{
+	width: 283px;
+	height: 283px;
+	box-shadow: 10px 10px 6px #00000089;
+}
+
+.news{
+
+}
+.news-back{
+	background-color: #142850;
+	margin-top: 80px;
+	transform: rotate(-3deg);
+	height: 250px;
+	width: 100%;
+}
+.news-top{
+	transform: rotate(3deg);
+	
+}
+.news-top h2{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 51px;
+	text-align: center;
+	margin: 0;
+	padding-top: 80px; 
+}
+.news-top p{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+.news-content{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	width: 80%;
+}
+.news-content p{
+	border-bottom: 1px solid #142850;
+	color: #142850;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 26px;
+}
+footer{
+	background-color: #142850;
+	height: 200px;
+	margin: 0;
+}
+.line-shape1{
+	margin-top: 80px;
+	width: 100%;
+	height: 22px;
+	background-color: #00A8CC;
+}
+.line-shape2{
+	width: 100%;
+	height: 22px;
+	background-color: #0C7B93;
+}
+.line-shape3{
+	width: 100%;
+	height: 22px;
+	background-color: #27496D;
+}
+.footer-nav{
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+	margin: 0;
+}
+.footer-nav li{
+	list-style: none;
+	border-left: 1px solid #ffffff;
+	padding: 0 10px;
+}
+.last-list{
+	border-right: 1px solid #ffffff;
+}
+.footer-nav li a{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	text-decoration: none;
+}
+footer p{
+	color: #ffffff;
+	font-family: 'Noto Serif JP', serif;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
