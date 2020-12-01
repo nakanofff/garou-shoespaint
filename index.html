@@ -1,96 +1,151 @@
 <!doctype html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
+<title>画廊シューズペイント</title>
+<meta name="Description" content="あなたのシューズにペイントを加え、オリジナルデザインを作成する画廊シューズペイントのWebサイトです。">
 <link rel="stylesheet" href="stylesheet.css">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
-<title>画廊卍 シューズペイント製作所</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="animate.css">
+<script src="wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 </head>
 
 <body>
-	
+
+	<section id="first-animetion">
+
+	</section>
+
+
 	<header>
-	<div class="header-line container">
-		<nav class="header-nav">
-		<a href="index.html"><img src="logo.png" alt="画廊卍シューズペイント製作所ロゴ"></a>
-			<ul>
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="#about">ABOUT</a></li>
-			<li><a href="#works">WORKS</a></li>
-			<li><a href="#news">NEWS</a></li>
-			</ul>
-		</nav>
-		<div class="twitter-icon">
-		<a href="https://twitter.com/paintmyfriend"><img src="twitter w.png" alt="Twitterアイコン"></a>
-		</div>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">WORKS</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+			<div id="sns_wrapper">
+				<a href="#" class="twitter"> </a>
+				<a href="#" class="instagram"></a>
+			</div>
+			<div id="close_button">
+				<div class="close_line1"></div>
+				<div class="close_line2"></div>
+			</div>
 		</div>
 	</header>
-	
-	<section class="about">
-		<a name="about"></a>
-	<h2>ABOUT</h2>
-	<p>シューズペイントで自分だけのオリジナルシューズを作りませんか？<br>
-		制作依頼はTwitterのダイレクトメッセージからお願いします。</p>
-	<div class="twitter-botton">
-		<img src="twitter w.png" alt="Twitterアイコン">
-		<h3><a href="https://twitter.com/paintmyfriend">Twitter</a></h3>
+
+	<section id="home">
+		<div id="first-title">
+			<h1 class="ft_garou wow fadeInLeftBig">GAROU</h1>
+			<h1 class="ft_shoes wow fadeInRightBig">SHOES PEINT</h1>
 		</div>
-	</section>
-	
-	<section class="works">
-		<a name="works"></a>
-		<div class="works-back">
-			<div class="works-top">
-	<h2>WORKS</h2>
-	<p>過去に制作した作品です。</p>
-				</div>
+
+		<div id="menu_button">
+			<div class="menu_line1 wow fadeInRightBig" deta-wow-delay="0"></div>
+			<div class="menu_line2 wow fadeInRightBig" data-wow-delay="0.3s"></div>
+			<div class="menu_line3 wow fadeInRightBig" data-wow-delay="0.6s"></div>
 		</div>
-		<div class="gallery">
-		<div class="line1">
-			<img src="shoes1.jpg" alt="シューズペイント作品１">
-			<img src="shoes2.jpg" alt="シューズペイント作品2">
-			<img src="shoes3.jpg" alt="シューズペイント作品3">
+
+		<div id="home_content">
+			<div class="home_text">
+				<p class="home_ja wow fadeInLeft">
+					画廊シューズペイントはお使いのシューズ<br>
+			   にペイントを施し、あなただけのオリジナ<br>
+			   ルシューズを制作するサービスです。</p>
+				<p class="home_en wow fadeInLeft" data-wow-delay="0.5s">GAROU Shoes Paint is a service to <br>
+				              paint shoes to create your own shoes.</p>
+
+				<button onClick="https://twitter.com/paintmyfriend" class="contact_button wow fadeInLeft" data-wow-delay="1s">制作のお問い合わせ</button>
 			</div>
-		<div class="line2">
-			<img src="shoes4.jpg" alt="シューズペイント作品4">
-			<img src="shoes5.jpg" alt="シューズペイント作品5">
-			<img src="shoes6.jpg" alt="シューズペイント作品6">
+			<img src="s1.jpeg" alt="シューズペイント画像" class="home_img wow fadeInRight">
+		</div>
+
+		<div id="scroll_arrow"></div>
+	</section>
+
+	<section id="about">
+		<div id="about_title">
+			<h2>ABOUT</h2>
+		</div>
+
+		<div id="about_content">
+			<img src="s1.jpeg" alt="シューズペイント画像" class="about_img">
+			<div class="about_text">
+				<p class="home_ja">
+					ペイントのデザインについて要望をお聞きし<br>
+					つつオリジナルデザインを製作させていただ<br>
+					きます。デザインの種類や制作の難易度によ<br>
+					って価格を決定いたします。
+				</p>
+				<p class="home_en">
+					Hear your request about paint design <br>
+					I was just making an original design <br>
+					to come. Depending on the type of <br>
+					design and the difficulty of production <br>
+					I will decide the price.
+				</p>
 			</div>
 		</div>
 	</section>
-	
-	<section class="news">
-		<a name="news"></a>
-	<div class="news-back">
-			<div class="news-top">
-	<h2>NEWS</h2>
-	<p>お知らせなどを順次投稿いたします。</p>
-				</div>
+
+	<section id="works">
+		<div id="works_title">
+				<h2>WORKS</h2>
 		</div>
-		
-		　<div class="news-content">
-		<p class="top-content">まだ記事はありません。</p>
-		<p>まだ記事はありません。</p>
-        <p>まだ記事はありません。</p>
-		<p>まだ記事はありません。</p>
-		
+		<div id="works_content1">
+			<div class="works_line1">
+					<img src="s1.jpeg" alt="シューズペイント画像" class="shoes1 works_img">
+					<img src="s2.jpeg" alt="シューズペイント画像" class="shoes2 works_img">
+					<img src="s3.jpeg" alt="シューズペイント画像" class="shoes3 works_img">
+					<img src="s4.jpeg" alt="シューズペイント画像" class="shoes4 works_img">
+			</div>
+			<div class="works_line2">
+
+			</div>
 		</div>
 	</section>
-	
-	<footer>
-	    <div class="line-shape1"></div>
-		<div class="line-shape2"></div>
-		<div class="line-shape3"></div>
-		
-		<nav>
-		<ul class="footer-nav">
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="#about">ABOUT</a></li>
-			<li><a href="#works">WORKS</a></li>
-			<li class="last-list"><a href="#news">NEWS</a></li>
-			</ul>
-		</nav>
-		<p>©2020 garou-shoespaint</p>
-	</footer>
+
+	<section id="contact">
+		<div id="contact_title">
+			<h2>CONTACT</h2>
+		</div>
+		<div id="contact_content">
+			<div class="contact_text">
+				<p class="home_ja">
+					制作依頼等はTwitterのダイレクト<br>
+					メッセージからご連絡お願いいたします。
+				</p>
+				<p class="home_en">
+					Please make a production request<br>
+					from a direct message on Twitter.
+				</p>
+				<button onclick="#" class="conatct_button">twitter</button>
+			</div>
+
+			<div class="phone_shape_wrap">
+				<div class="phone_shape_top">
+
+				</div>
+				<div class="phone_shape_middle">
+					<p class="DM_text1">はじめまして</p>
+					<p class="DM_text2">こちらのシューズへのペイントは可能ですか？</p>
+					<p class="DM_text3"></p>
+				</div>
+				<div class="phone_shape_bottom">
+
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
